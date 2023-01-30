@@ -171,3 +171,11 @@ mysql>
 #### 7.2.DML (SELECT/INSERT/UPDATE/DELETE)
 
 ![Screenshot_212](https://user-images.githubusercontent.com/106797604/213716675-d3124350-f524-45ca-a8
+
+#### 7.3.DCL (GRANT/REVOKE)
+```
+CREATE USER 'shalimir'@'localhost' IDENTIFIED BY 'aa09dd995C72_5355a598fc7D8ab1230a'; 
+GRANT ALL ON shalimir.* TO 'shalimir'@'localhost'; 
+REVOKE INSERT ON shalimir.* FROM'shalimir'@'localhost';
+```
+![Screenshot_247](https://user-images.githubusercontent.com/123692654/215487461-51c726e8-44e4-4d73-b562-a4ee8c9a8aa4.png)
