@@ -187,3 +187,15 @@ REVOKE INSERT ON shalimir.* FROM'shalimir'@'localhost';
 ```
 ![Screenshot_248](https://user-images.githubusercontent.com/123692654/215488236-d93223bb-0cb6-4e93-adf5-704f38ed00f5.png)
 
+### 9. Make a selection from the main table DB MySQL.
+![Screenshot_249](https://user-images.githubusercontent.com/123692654/215490431-08d203ab-6c63-472a-82fd-bf3e647410af.png)
+```
+sudo mysql
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
+exit
+
+mysql -u root -p
+```
+
+![Screenshot_249](https://user-images.githubusercontent.com/123692654/215490431-08d203ab-6c63-472a-82fd-bf3e647410af.png)
+
