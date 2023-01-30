@@ -75,4 +75,44 @@ CREATE TABLE orders (
 ![Screenshot_239](https://user-images.githubusercontent.com/123692654/215393773-3be52397-d0c9-468e-ad3c-9970342ba403.png)
 ![Screenshot_240](https://user-images.githubusercontent.com/123692654/215393775-80ea5336-7d9d-4f12-9cc9-c99a9b2bfe4b.png)
 
+### 5. Fill in tables.
+```
+INSERT customers (name,phone,email)
+VALUES
+('Auchan','0954446756','orders@auchan.com'),
+('Silpo','0976542231','orders@silpo.com'),
+('Fora','0982332516','orders@fora.com');
+
+INSERT products (name,description,price)
+VALUES
+('apple','Ukraine, price for 1kg','45'),
+('potato','Belarus, price for 1kg','23'),
+('banana','from Australia, price for 1kg','56'),
+('strawberry','from Italy, price for 1kg','96'),
+('apple','Poland, price for 1kg','60');
+
+INSERT orders (customer_id,product_id,date,quantity)
+VALUES
+('1','3','2021-03-08','3'),
+('1','5','2021-03-09','38'),
+('1','6','2021-03-10','2'),
+('3','3','2021-03-02','7'),
+('3','2','2021-03-13','13'),
+('2','5','2021-03-14','4'),
+('2','1','2021-03-14','4'),
+('2','5','2021-03-22','7'),
+('1','4','2021-03-08','45'),
+('1','5','2021-03-08','8'),
+('2','4','2021-03-01','3'),
+('1','3','2021-03-01','7'),
+('3','5','2021-03-01','9'),
+('2','3','2021-03-23','22'),
+('2','3','2021-03-24','22'),
+('1','5','2021-03-08','22'),
+('2','1','2021-03-13','5');
+```
+![Screenshot_241](https://user-images.githubusercontent.com/123692654/215394299-1c6c4737-cd43-48cd-bdaf-550361894d70.png)
+![Screenshot_242](https://user-images.githubusercontent.com/123692654/215394303-42af7144-ba8d-41ce-b3dc-cbc39afa0f57.png)
+
+
 
