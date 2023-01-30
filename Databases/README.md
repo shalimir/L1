@@ -179,3 +179,11 @@ GRANT ALL ON shalimir.* TO 'shalimir'@'localhost';
 REVOKE INSERT ON shalimir.* FROM'shalimir'@'localhost';
 ```
 ![Screenshot_247](https://user-images.githubusercontent.com/123692654/215487461-51c726e8-44e4-4d73-b562-a4ee8c9a8aa4.png)
+
+### 8. Create a database of new users with different privileges. Connect to the database as a new user and verify that the privileges allow or deny certain actions.
+```
+ mysql -u shalimir -p
+ aa09dd995C72_5355a598fc7D8ab1230a
+```
+![Screenshot_248](https://user-images.githubusercontent.com/123692654/215488236-d93223bb-0cb6-4e93-adf5-704f38ed00f5.png)
+
