@@ -47,5 +47,32 @@ Database changed
 mysql>
 
 ```
+### 4. Create a database on the server through the console.
+```
+CREATE TABLE customers (
+    customer_id INTEGER PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    name VARCHAR(255),
+    phone VARCHAR(255),
+    email VARCHAR(255)
+); 
+
+CREATE TABLE products (  
+    product_id INTEGER PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    name VARCHAR(255),
+    description VARCHAR(255),
+    price DECIMAL(4,2) NOT NULL
+);  
+
+CREATE TABLE orders (
+    order_id INTEGER PRIMARY KEY NOT NULL AUTO_INCREMENT,  
+    customer_id INTEGER,  
+    product_id INTEGER,  
+    date DATETIME,  
+    quantity INTEGER  
+);
+```
+
+![Screenshot_239](https://user-images.githubusercontent.com/123692654/215393773-3be52397-d0c9-468e-ad3c-9970342ba403.png)
+![Screenshot_240](https://user-images.githubusercontent.com/123692654/215393775-80ea5336-7d9d-4f12-9cc9-c99a9b2bfe4b.png)
 
 
