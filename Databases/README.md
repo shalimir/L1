@@ -167,3 +167,7 @@ mysql>
 ![Screenshot_245](https://user-images.githubusercontent.com/123692654/215484979-c2e3eced-b1f2-403d-b713-a6ebbe9f2bf6.png)
 ![Screenshot_246](https://user-images.githubusercontent.com/123692654/215484986-8925e0e4-244c-40e9-9557-4b0bbbc53247.png)
 
+
+#### 7.2.DML (SELECT/INSERT/UPDATE/DELETE)
+
+![Screenshot_212](https://user-images.githubusercontent.com/106797604/213716675-d3124350-f524-45ca-a8
