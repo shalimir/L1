@@ -238,3 +238,12 @@ root@ip-172-31-44-64:/tmp# mysql -u root -p -h shalimir.cduyezchgqea.eu-west-1.r
 mysqldump -u admin -p -h shalimir.cduyezchgqea.eu-west-1.rds.amazonaws.com shalimir > /tmp/shalimir.sql
 ```
 
+# PART 3
+### 17. Create a database. Use the use command to connect to a new database (If it doesn't exist, Mongo will create it when you write to it).
+### 18. Create a collection. Use db.createCollection to create a collection. I'll leave the subject up to you. Run show dbs and show collections to view your database and collections.
+### 19. Create some documents. Insert a couple of documents into your collection. I'll leave the subject matter up to you, perhaps cars or hats.
+### 20. Use find() to list documents out.
+![Screenshot_222](https://user-images.githubusercontent.com/106797604/213828675-94aeafb1-79b3-4a92-9ed6-274f41084b55.png)
+![Screenshot_223](https://user-images.githubusercontent.com/106797604/213828679-7535aadc-24d5-44b7-ae58-91340595d813.png)
+![Screenshot_224](https://user-images.githubusercontent.com/106797604/213828681-330028af-e450-42f0-9026-161e3880773a.png)
+
