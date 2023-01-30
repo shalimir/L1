@@ -115,4 +115,14 @@ VALUES
 ![Screenshot_242](https://user-images.githubusercontent.com/123692654/215394303-42af7144-ba8d-41ce-b3dc-cbc39afa0f57.png)
 
 
+### 6. Construct and execute SELECT operator with WHERE, GROUP BY and ORDER BY.
+#### 6.1-2.SELECT/ORDER
+```
+SELECT * FROM customers WHERE name='Auchan'; SELECT * FROM products ORDER BY name;
+```
+
+![Screenshot_243](https://user-images.githubusercontent.com/123692654/215394827-96d05a6f-ac53-40ad-82b1-70db00be7a51.png)
+
+
+
 
