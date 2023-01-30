@@ -131,5 +131,39 @@ SELECT customers.name, COUNT(*)  FROM orders INNER JOIN customers ON orders.cust
 ```
 ![Screenshot_244](https://user-images.githubusercontent.com/123692654/215395527-6560924a-fe48-4245-87d1-756bb14d3ddd.png)
 
+### 7. Execute other different SQL queries DDL, DML, DCL.
+#### 7.1.DDL (CREATE/ALTER/DROP)
+```
+mysql> DROP table customers;
+Query OK, 0 rows affected (0.02 sec)
 
+mysql> CREATE TABLE customers (
+    ->     customer_id INTEGER PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    ->     name VARCHAR(255),
+    ->     phone VARCHAR(255),
+    ->     email VARCHAR(255)
+    -> );
+Query OK, 0 rows affected (0.03 sec)
+
+mysql> ALTER TABLE products DROP COLUMN price;
+Query OK, 0 rows affected (0.03 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> DESC products;
++-------------+--------------+------+-----+---------+----------------+
+| Field       | Type         | Null | Key | Default | Extra          |
++-------------+--------------+------+-----+---------+----------------+
+| product_id  | int          | NO   | PRI | NULL    | auto_increment |
+| name        | varchar(255) | YES  |     | NULL    |                |
+| description | varchar(255) | YES  |     | NULL    |                |
++-------------+--------------+------+-----+---------+----------------+
+3 rows in set (0.00 sec)
+
+mysql>
+
+```
+
+
+![Screenshot_245](https://user-images.githubusercontent.com/123692654/215484979-c2e3eced-b1f2-403d-b713-a6ebbe9f2bf6.png)
+![Screenshot_246](https://user-images.githubusercontent.com/123692654/215484986-8925e0e4-244c-40e9-9557-4b0bbbc53247.png)
 
