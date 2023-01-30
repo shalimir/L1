@@ -199,3 +199,42 @@ mysql -u root -p
 
 ![Screenshot_249](https://user-images.githubusercontent.com/123692654/215490431-08d203ab-6c63-472a-82fd-bf3e647410af.png)
 
+
+
+
+# PART 2
+### 10.Make backup of your database.
+```
+sudo su
+cd /tmp/
+mysqldump -u root -p shalimir > shalimir.sql
+cat shalimir.sql
+```
+<img src="https://user-images.githubusercontent.com/123692654/215492013-3d0abe01-0aaa-48bd-b4a2-364c6d9c8006.png" align="right">
+<img src="https://user-images.githubusercontent.com/123692654/215492017-69988718-5ca3-4e40-a2e0-0ab2d9d2ebc4.png" align="left">
+
+![Screenshot_252](https://user-images.githubusercontent.com/123692654/215492020-431895cc-a64b-474b-b45d-f2dc0e4a5bd5.png)
+
+
+### 11.Delete the table and/or part of the data in the table.
+
+### 12.Restore your database.
+```
+mysql -u root -p --protocol=tcp shalimir < /tmp/shalimir.sql
+zcat /tmp/shalimir.sql.gzip | mysql -u root -p --protocol=tcp shalimir
+gunzip < /tmp/shalimir.sql_20230116-184640_sql.gzip | mysql -u root -p --protocol=tcp shalimir
+```
+### 13.Transfer your local database to RDS AWS.
+![Screenshot_254](https://user-images.githubusercontent.com/123692654/215495275-e00ecf83-81c6-48c7-aa1e-eb056e5e6cea.png)
+
+### 14.Connect to your database.
+mysql -h shalimir.cduyezchgqea.eu-west-1.rds.amazonaws.com -P 3306 -u shalimir -p
+mysql -u shalimir -p -h shalimir.cduyezchgqea.eu-west-1.rds.amazonaws.com shalimir < /tmp/shalimir.sql
+
+### 15.Execute SELECT operator similar step 6.
+### 16.Create the dump of your database.
+```
+root@ip-172-31-44-64:/tmp# mysql -u root -p -h shalimir.cduyezchgqea.eu-west-1.rds.amazonaws.com
+mysqldump -u admin -p -h shalimir.cduyezchgqea.eu-west-1.rds.amazonaws.com shalimir > /tmp/shalimir.sql
+```
+
