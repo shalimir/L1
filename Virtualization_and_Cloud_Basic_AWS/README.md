@@ -100,3 +100,11 @@ umount /dev/xvdf
 ![Screenshot_270](https://user-images.githubusercontent.com/123692654/215732267-b60a382c-7a37-4184-ba63-aceca19d61fa.png)
 ![Screenshot_271](https://user-images.githubusercontent.com/123692654/215732269-87ed22ff-d8a8-4f77-80d3-6eaf881697c5.png)
 
+### 11. Detach Disk_D from the 1st instance and attach disk_D to the new instance.
+![Screenshot_272](https://user-images.githubusercontent.com/123692654/215742211-7da55fda-65de-4adb-9e00-de4db8e38d95.png)
+![Screenshot_273](https://user-images.githubusercontent.com/123692654/215742232-be1b6375-177d-4325-94b8-5f5f77a1b388.png)
+![Screenshot_274](https://user-images.githubusercontent.com/123692654/215742235-f177df13-8848-4d1f-8c2c-19a9f84bba31.png)
+![Screenshot_275](https://user-images.githubusercontent.com/123692654/215742237-c40d91e4-81cb-4cd5-a338-7b892a5f5659.png)
+
+
+
