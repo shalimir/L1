@@ -162,3 +162,9 @@ application with custom settings.
 ![Screenshot_293](https://user-images.githubusercontent.com/123692654/215900401-3f213768-af21-4652-966a-803390ea6777.png)
 
 
+### 17. Run a Serverless "Hello, World!" with AWS Lambda.
+
+![Screenshot_294](https://user-images.githubusercontent.com/123692654/215906570-dc030b79-6ae2-4aab-9dd8-e33894d3f6d8.png)
+![Screenshot_295](https://user-images.githubusercontent.com/123692654/215906573-753b6434-e962-4f71-b5fc-acc745beefe6.png)
+![Screenshot_296](https://user-images.githubusercontent.com/123692654/215906574-23cc82c5-d305-4926-9cc8-d832659ba99c.png)
+![Screenshot_297](https://user-images.githubusercontent.com/123692654/215906576-b0fdfff8-1325-4e6e-9e99-1db392ba42d3.png)
