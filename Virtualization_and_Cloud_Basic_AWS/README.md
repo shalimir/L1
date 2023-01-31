@@ -54,8 +54,43 @@ sleep 2
 sudo yum update && sudo yum upgrade -y
 
 ```
-<img src="https://user-images.githubusercontent.com/123692654/215713953-7dec132f-ee54-403d-b7a2-36ae9192a882.png" align="right">
-![Screenshot_259](https://user-images.githubusercontent.com/123692654/215713959-e4364e03-05d1-44c9-a9c3-a5ace8f323df.png)
+![Screenshot_258](https://user-images.githubusercontent.com/123692654/215715520-af44f339-f9dc-43ac-b804-e06fee9a20d9.png)
+![Screenshot_259](https://user-images.githubusercontent.com/123692654/215715549-e27608b9-7ca6-4605-9b69-a4793c32ef27.png)
+![Screenshot_260](https://user-images.githubusercontent.com/123692654/215715554-a52da46a-c255-41af-9f78-2b604cb2dda3.png)
 
-![Screenshot_260](https://user-images.githubusercontent.com/123692654/215714836-053aea2a-cd9f-4d32-8dc9-ae9a6a462264.png)
+### 8. Create a snapshot of your instance to keep as a backup.
+
+![Screenshot_261](https://user-images.githubusercontent.com/123692654/215716728-393ba62e-19ff-48fe-ab0b-c4e2eeff11ee.png)
+![Screenshot_262](https://user-images.githubusercontent.com/123692654/215716730-4ce3aa14-9216-4157-9187-e5ccb8363258.png)
+
+### 9. Create and attach a Disk_D (EBS) to your instance to add more storage space. Create and save some file on Disk_D.
+![Screenshot_263](https://user-images.githubusercontent.com/123692654/215723391-e8e97a5d-de4e-421a-afcc-46fa6d5fe15f.png)
+![Screenshot_264](https://user-images.githubusercontent.com/123692654/215723396-42fac58f-9834-44d2-bb19-a074164d70fa.png)
+![Screenshot_265](https://user-images.githubusercontent.com/123692654/215723399-fee59f00-dd2f-4edd-bb2f-c184dbf6b319.png)
+![Screenshot_266](https://user-images.githubusercontent.com/123692654/215723403-dbbfaa82-e24c-4d7e-8ede-06fdf4d1a4bd.png)
+![Screenshot_268](https://user-images.githubusercontent.com/123692654/215723407-bc3f3b53-bfeb-4e60-9914-bcc0b3e9fcdc.png)
+
+```
+lsblk
+sudo file -s /dev/xvdf
+
+# Format the volume to the ext4 filesystem using the following command.
+sudo mkfs -t ext4 /dev/xvdf
+# Alternatively, you can also use the xfs format. You have to use either ext4 or xfs.
+sudo mkfs -t xfs /dev/xvdf
+
+# Create a directory of your choice to mount our new ext4 volume.
+sudo mkdir Disc_D
+
+# Mount the volume to “Disc_D” directory using the following command.
+sudo mount /dev/xvdf Disc_D
+
+# cd into Disc_D directory and check the disk space to validate the volume mount.
+cd Disc_D
+df -h
+
+# To unmount the volume, use the unmount command as shown below..
+umount /dev/xvdf
+
+```
 
