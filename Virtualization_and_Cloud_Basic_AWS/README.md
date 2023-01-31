@@ -130,3 +130,12 @@ sudo systemctl start httpd
 ![Screenshot_279](https://user-images.githubusercontent.com/123692654/215841332-94933268-1de8-43de-b488-a1d80b394c6b.png)
 
 ![Screenshot_280](https://user-images.githubusercontent.com/123692654/215841579-69f04c4b-7339-457e-bc70-edca5ceebc52.png)
+
+
+### 13. Launch and configure a WordPress instance with Amazon Lightsail link
+![Screenshot_281](https://user-images.githubusercontent.com/123692654/215849607-15e14f86-1358-428c-9174-6b1b450d67e5.png)
+![Screenshot_282](https://user-images.githubusercontent.com/123692654/215849610-842ef0f3-8a57-4536-b9c3-69c1121875d9.png)
+![Screenshot_283](https://user-images.githubusercontent.com/123692654/215849627-6f4cc0f0-0580-4d77-b27a-1bc89d7ce1ec.png)
+![Screenshot_284](https://user-images.githubusercontent.com/123692654/215849629-06482075-386c-4d52-b588-c019d96c6db4.png)
+
+
