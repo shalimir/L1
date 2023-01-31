@@ -151,3 +151,14 @@ sudo systemctl start httpd
 Create a user AWS IAM, configure CLI AWS and upload any files to S3.
 ![Screenshot_289](https://user-images.githubusercontent.com/123692654/215852776-8be3ca7e-33a0-4431-9a94-204b8e4f58d1.png)
 ![Screenshot_290](https://user-images.githubusercontent.com/123692654/215859709-f186f717-e2be-49ef-8d50-d3085d2e2fda.png)
+
+
+### 16. Review the 10-minute example Deploy Docker Containers on Amazon Elastic Container Service 
+(Amazon ECS). Repeat, create a cluster, and run the online demo application or better other
+application with custom settings.
+
+![Screenshot_291](https://user-images.githubusercontent.com/123692654/215900226-e08adac9-5d95-48e6-b5a1-4a829d6abe39.png)
+![Screenshot_292](https://user-images.githubusercontent.com/123692654/215900229-71010f97-c221-4825-b764-d76fe0164f0a.png)
+![Screenshot_293](https://user-images.githubusercontent.com/123692654/215900401-3f213768-af21-4652-966a-803390ea6777.png)
+
+
