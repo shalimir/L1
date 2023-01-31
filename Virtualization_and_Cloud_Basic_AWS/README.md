@@ -94,3 +94,9 @@ umount /dev/xvdf
 
 ```
 
+### 10. Launch the second instance from backup.
+
+![Screenshot_269](https://user-images.githubusercontent.com/123692654/215732260-712d4d32-f1bc-40f7-a865-96b2b9637633.png)
+![Screenshot_270](https://user-images.githubusercontent.com/123692654/215732267-b60a382c-7a37-4184-ba63-aceca19d61fa.png)
+![Screenshot_271](https://user-images.githubusercontent.com/123692654/215732269-87ed22ff-d8a8-4f77-80d3-6eaf881697c5.png)
+
