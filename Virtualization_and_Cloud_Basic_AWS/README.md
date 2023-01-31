@@ -106,5 +106,27 @@ umount /dev/xvdf
 ![Screenshot_274](https://user-images.githubusercontent.com/123692654/215742235-f177df13-8848-4d1f-8c2c-19a9f84bba31.png)
 ![Screenshot_275](https://user-images.githubusercontent.com/123692654/215742237-c40d91e4-81cb-4cd5-a338-7b892a5f5659.png)
 
+### 12 Review the 10-minute example. Explore the possibilities of creating your own domain and 
+domain name for your site. Note, that Route 53 not free service. Alternatively you can free register the domain name *.PP.UA and use it.
+```
+sudo yum install firewalld
+sudo systemctl enable firewalld
+sudo reboot
+sudo firewall-cmd --state
+
+firewall-cmd --zone=public --add-port=80/tcp --permanent
+firewall-cmd --reload
 
 
+sudo yum install httpd
+sudo systemctl enable httpd
+sudo systemctl start httpd
+```
+![Screenshot_276](https://user-images.githubusercontent.com/123692654/215834337-53027866-405f-48d3-a38d-075a46417cda.png)
+![Screenshot_277](https://user-images.githubusercontent.com/123692654/215834342-82abfdc8-d1bf-4194-b311-f1ddcdf8a667.png)
+
+
+![Screenshot_278](https://user-images.githubusercontent.com/123692654/215841325-ce4c7660-ac01-46c4-8a52-ffa4c3c68795.png)
+![Screenshot_279](https://user-images.githubusercontent.com/123692654/215841332-94933268-1de8-43de-b488-a1d80b394c6b.png)
+
+![Screenshot_280](https://user-images.githubusercontent.com/123692654/215841579-69f04c4b-7339-457e-bc70-edca5ceebc52.png)
