@@ -138,4 +138,16 @@ sudo systemctl start httpd
 ![Screenshot_283](https://user-images.githubusercontent.com/123692654/215849627-6f4cc0f0-0580-4d77-b27a-1bc89d7ce1ec.png)
 ![Screenshot_284](https://user-images.githubusercontent.com/123692654/215849629-06482075-386c-4d52-b588-c019d96c6db4.png)
 
+### 14. Review the 10-minute Store and Retrieve a File. Repeat, creating your own repository.
 
+![Screenshot_285](https://user-images.githubusercontent.com/123692654/215851733-c0a892cf-1e16-4fde-9bec-a0cf0a4cf259.png)
+![Screenshot_286](https://user-images.githubusercontent.com/123692654/215851736-d10c0cb8-69c5-4be0-9b29-d63a37222c77.png)
+
+![Screenshot_287](https://user-images.githubusercontent.com/123692654/215851724-bff15787-b462-4faf-938a-f1e5cbb7edd8.png)
+![Screenshot_288](https://user-images.githubusercontent.com/123692654/215851766-0b731b3e-213c-419f-9125-135a2f3d5b08.png)
+
+
+### 15. Review the 10-minute example Batch upload files to the cloud to Amazon S3 using the AWS CLI.
+Create a user AWS IAM, configure CLI AWS and upload any files to S3.
+![Screenshot_289](https://user-images.githubusercontent.com/123692654/215852776-8be3ca7e-33a0-4431-9a94-204b8e4f58d1.png)
+![Screenshot_290](https://user-images.githubusercontent.com/123692654/215859709-f186f717-e2be-49ef-8d50-d3085d2e2fda.png)
